@@ -483,7 +483,7 @@ p {
   line-height: 22.5px;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
   .top-subtitle {
     font-size: 14px;
     line-height: 17.5px;
@@ -774,6 +774,11 @@ p {
 }
 .services__link:hover .services__link-svg {
   transform: rotate(45deg);
+}
+@media screen and (max-width: 500px) {
+  .services__item:hover {
+    pointer-events: none;
+  }
 }
 /***********services__right********************/
 .services__right {
@@ -2148,7 +2153,7 @@ p {
     background-size: contain;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
   .privileges__left {
     background-image: url(../images/priv-bg320.png);
     padding: 13px 20px;
@@ -2197,9 +2202,10 @@ p {
     width: 100%;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
   .privileges__subtitle {
     margin-top: 10px;
+    max-width: 100%;
   }
 }
 .privileges__button {
@@ -2213,7 +2219,7 @@ p {
     margin-top: 92px;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
   .privileges__button {
     width: 100%;
     margin-top: 300px;
