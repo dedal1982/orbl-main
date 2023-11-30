@@ -3732,7 +3732,7 @@ p {
 }
 @media screen and (max-width: 1024px) {
   #video-block video {
-    height: 100vh;
+    height: 90vh;
   }
 }
 #video-block video:nth-child(2) {
