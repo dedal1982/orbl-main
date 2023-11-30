@@ -518,12 +518,12 @@ p {
 }
 @media screen and (max-width: 1024px) {
   .services__wrapper {
-    margin-top: 240px;
+    margin-top: 151px;
   }
 }
 @media screen and (max-width: 767px) {
   .services__wrapper {
-    margin-top: 165px;
+    margin-top: 77px;
     gap: 22px;
   }
 }
