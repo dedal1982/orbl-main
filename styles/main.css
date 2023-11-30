@@ -483,7 +483,7 @@ p {
   line-height: 22.5px;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 400px) {
   .top-subtitle {
     font-size: 14px;
     line-height: 17.5px;
@@ -2229,8 +2229,9 @@ p {
 .privileges__text-subtitle {
   display: none;
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .privileges__text-subtitle {
+    max-width: 240px;
     font-weight: 600;
     display: block;
     font-size: 12px;
@@ -2777,6 +2778,12 @@ p {
   }
   .main-rel-section {
     top: 146px;
+    padding-top: 45px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .main-rel-section {
+    padding-top: 25px;
   }
 }
 .rel-section__item {
