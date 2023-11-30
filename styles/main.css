@@ -3863,10 +3863,10 @@ p {
     width: 100%;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   .news__hiddden {
     opacity: 1;
-    padding-top: 15px;
+    padding-top: 30px;
   }
 }
 @media screen and (max-width: 767px) {
