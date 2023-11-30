@@ -3847,6 +3847,10 @@ p {
 @media screen and (max-width: 600px) {
   .news__hiddden {
     opacity: 1;
+  }
+}
+@media screen and (max-width: 500px) {
+  .news__hiddden {
     padding-top: 15px;
     border-top: 1px solid #ffffff33;
     width: 100%;
