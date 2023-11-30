@@ -2489,7 +2489,7 @@ p {
 .news__we-h {
   display: none;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 767px) {
   .news__we-h {
     display: block;
     margin-top: 10px;
