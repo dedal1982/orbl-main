@@ -1137,11 +1137,10 @@ p {
     width: 100%;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .aspirations__image {
     background-image: url(../icons/aspirations3.jpg);
     height: 275px;
-    border-radius: 0 0 20px 20px;
   }
 }
 .aspirations__inner {
@@ -1171,7 +1170,7 @@ p {
     max-width: 100%;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .aspirations__inner {
     border-radius: 20px 20px 0 0;
     background: transparent;
