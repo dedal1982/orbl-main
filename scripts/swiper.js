@@ -52,6 +52,7 @@ const contactSlider = new Swiper(".contact_slider", {
 const servicesSwiper = new Swiper(".services__swiper", {
   // Optional parameters
   direction: "horizontal",
+  spaceBetween: 20,
   loop: false,
 
   // If we need pagination

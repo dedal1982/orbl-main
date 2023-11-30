@@ -663,6 +663,9 @@ p {
 .services__swiper {
   display: none;
 }
+.swiper-pagination-bullet-active {
+  background: #2bdf27 !important;
+}
 @media screen and (max-width: 767px) {
   .services__swiper {
     display: block;
