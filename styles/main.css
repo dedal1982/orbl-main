@@ -265,7 +265,7 @@ p {
   position: relative;
   color: #fff;
   border-radius: 0 0 40px 40px;
-  height: 100dvh;
+  height: 90vh;
 }
 
 .hero img {
@@ -523,7 +523,7 @@ p {
 }
 @media screen and (max-width: 767px) {
   .services__wrapper {
-    margin-top: 76px;
+    margin-top: 165px;
     gap: 22px;
   }
 }
@@ -3847,6 +3847,9 @@ p {
 @media screen and (max-width: 600px) {
   .news__hiddden {
     opacity: 1;
+    padding-top: 15px;
+    border-top: 1px solid #ffffff33;
+    width: 100%;
   }
 }
 /****************we-work__new-page*************************/
