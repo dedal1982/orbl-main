@@ -483,7 +483,7 @@ p {
   line-height: 22.5px;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .top-subtitle {
     font-size: 14px;
     line-height: 17.5px;
@@ -728,7 +728,15 @@ p {
   position: relative;
   top: 10px;
 }
-@media screen and (min-width: 450px) {
+@media screen and (max-width: 1150px) {
+  .services__svg-top {
+    top: 20px;
+  }
+  .services__svg {
+    top: 35px;
+  }
+}
+@media screen and (min-width: 1025px) {
   .services__item:hover .services__svg-top {
     background-image: url(../icons/bk2.svg);
   }
@@ -738,14 +746,6 @@ p {
   }
   .services__item:hover .services__svg {
     background-image: url(../icons/bk02.svg);
-  }
-}
-@media screen and (max-width: 1150px) {
-  .services__svg-top {
-    top: 20px;
-  }
-  .services__svg {
-    top: 35px;
   }
 }
 @media screen and (max-width: 1000px) {
@@ -759,7 +759,7 @@ p {
   }
 }
 /*****************ховер блок сервиса****************************/
-@media screen and (min-width: 450px) {
+@media screen and (min-width: 1025px) {
   .services__item:hover {
     background: #242529;
   }
@@ -2187,6 +2187,9 @@ p {
 @media screen and (max-width: 500px) {
   .privileges__title {
     display: none;
+  }
+  .privileges__text {
+    max-width: 100%;
   }
 }
 .privileges__subtitle {
