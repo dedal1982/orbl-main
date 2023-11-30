@@ -728,15 +728,17 @@ p {
   position: relative;
   top: 10px;
 }
-.services__item:hover .services__svg-top {
-  background-image: url(../icons/bk2.svg);
-}
-.services__svg {
-  background-image: url(../icons/bk01.svg);
-  top: 20px;
-}
-.services__item:hover .services__svg {
-  background-image: url(../icons/bk02.svg);
+@media screen and (min-width: 450px) {
+  .services__item:hover .services__svg-top {
+    background-image: url(../icons/bk2.svg);
+  }
+  .services__svg {
+    background-image: url(../icons/bk01.svg);
+    top: 20px;
+  }
+  .services__item:hover .services__svg {
+    background-image: url(../icons/bk02.svg);
+  }
 }
 @media screen and (max-width: 1150px) {
   .services__svg-top {
@@ -757,29 +759,27 @@ p {
   }
 }
 /*****************ховер блок сервиса****************************/
-.services__item:hover {
-  background: #242529;
-}
-.services__item:hover h3 {
-  color: #ffffff;
-}
-.services__item:hover p {
-  color: #e3e4e6;
-}
-.services__item:hover .services__link {
-  color: #51a8c3;
-}
-.services__item:hover .services__link-svg {
-  fill: #51a8c3;
-}
-.services__link:hover .services__link-svg {
-  transform: rotate(45deg);
-}
-@media screen and (max-width: 500px) {
+@media screen and (min-width: 450px) {
   .services__item:hover {
-    pointer-events: none;
+    background: #242529;
+  }
+  .services__item:hover h3 {
+    color: #ffffff;
+  }
+  .services__item:hover p {
+    color: #e3e4e6;
+  }
+  .services__item:hover .services__link {
+    color: #51a8c3;
+  }
+  .services__item:hover .services__link-svg {
+    fill: #51a8c3;
+  }
+  .services__link:hover .services__link-svg {
+    transform: rotate(45deg);
   }
 }
+
 /***********services__right********************/
 .services__right {
   max-width: 700px;
