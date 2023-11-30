@@ -2474,7 +2474,7 @@ p {
     line-height: 16.25px;
   }
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 767px) {
   .news__subtitle {
     top: 25px;
     left: 20px;
@@ -2688,7 +2688,7 @@ p {
     max-width: 240px;
   }
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 767px) {
   .news__text-inner {
     max-width: 88%;
     left: 20px;
@@ -3861,7 +3861,7 @@ p {
     width: 100%;
   }
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 767px) {
   .news__hiddden {
     opacity: 1;
     padding-top: 15px;
