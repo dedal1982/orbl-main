@@ -18,9 +18,10 @@
   display: flex;
   margin-top: 99px;
   justify-content: space-between;
-  gap: 20px;
+  gap: 40px;
   align-items: flex-start;
 }
+
 @media screen and (max-width: 1150px) {
   .news-block__wrapper {
     flex-direction: column;
@@ -126,6 +127,7 @@
 .news-block__paragraph {
   color: #5f6163;
   margin-top: 20px;
+  line-height: 27.5px;
 }
 .news-block__paragraph span {
   color: #191a1b;
@@ -136,6 +138,7 @@
 @media screen and (max-width: 500px) {
   .news-block__paragraph {
     margin-top: 12px;
+    line-height: 25.5px;
   }
 }
 .news-block__links-item {
