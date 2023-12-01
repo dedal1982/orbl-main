@@ -73,10 +73,16 @@
 @media screen and (max-width: 540px) {
   .trinity__img-box {
     position: inherit;
-    width: 150px;
-    height: 55px;
+    width: 180px;
+    height: 70px;
     border-radius: 10px;
     top: 0;
+  }
+}
+@media screen and (max-width: 320px) {
+  .trinity__img-box {
+    width: 150px;
+    height: 55px;
   }
 }
 .trinity__image {
@@ -143,7 +149,7 @@
 @media screen and (max-width: 767px) {
   .trinity-subtitle {
     font-size: 13px;
-    line-height: 16.25px;
+    line-height: 18.25px;
   }
 }
 .trinity__list {
