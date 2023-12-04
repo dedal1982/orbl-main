@@ -1356,7 +1356,11 @@ p {
     gap: 25px;
   }
 }
-
+@media screen and (max-width: 767px) {
+  .we-work__inner {
+    margin-top: 25px;
+  }
+}
 .we-work__left {
   max-width: 700px;
   width: 100%;
